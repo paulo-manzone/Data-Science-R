@@ -49,7 +49,7 @@ ra$Dados[6] = mean(df1$Taxas.de.juros)
 
 
 ra2 =  c("min","max","qrt1","med","qrt3", "media")
-plot(factor(r2), r1$Dados, xlab="medida", ylab="valores")
+plot(factor(r2), ra$Dados, xlab="medida", ylab="valores")
 
 png("./graficos/ex1maiores.png")
 plot(factor(ra2), ra$Dados, xlab="medida", ylab="valores")
