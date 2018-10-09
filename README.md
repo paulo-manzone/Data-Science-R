@@ -1,6 +1,6 @@
 # Exercicios Ciência de dados
 ## Estatística básica
-## Linguagem R
+### Linguagem R
 > by: Paulo Maia
 
 * Exercicios propostos na matéria de Introdução à Ciência de Dados
