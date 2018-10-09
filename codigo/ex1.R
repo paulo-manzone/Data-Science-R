@@ -6,7 +6,7 @@ require(xlsx)
 #Lendo dados
 df1 = read.xlsx("./dados/exercicio1.xls", sheetName = "Plan1")
 
-#Explorando dados
+#Explorando dados - Baseado em algum site da internet
 Mins = min(df1$Taxas.de.juros)
 Maxs = max(df1$Taxas.de.juros)
 Quart1 = quantile(df1$Taxas.de.juros, 0.25) 
